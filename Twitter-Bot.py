@@ -9,7 +9,7 @@ import tweepy
 
 # For reading Authantication
 config = configparser.ConfigParser()
-config.read('C://Users/NANDIT/twitter_config.ini')
+config.read('twitter_config.ini')
 
 # Helper function for printing the tweets scraped using specified #hashtags
 def printtweetdata(n, ith_tweet):
